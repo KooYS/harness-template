@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+
+# phase execution outputs
+phases/**/phase*-output.json
+phases/**/step*-output.json
+
+# secrets — git add -A 시크릿 커밋 방지
+.env
+.env.*
+*.pem
+*.key
+credentials*
+*secret*
